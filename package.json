@@ -1,0 +1,31 @@
+{
+  "name": "webpack-template",
+  "version": "1.0.0",
+  "description": "基于wepack5搭建vue3,react的开发模板",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --config ./config/webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ghlyibu/webpack-template.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "ghlyibu <1091291816@qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghlyibu/webpack-template/issues"
+  },
+  "homepage": "https://github.com/ghlyibu/webpack-template#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1",
+    "webpack-merge": "^5.8.0"
+  }
+}
